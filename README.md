@@ -1,2 +1,8 @@
-# balance_robot
-Software for a balancing robot
+# Balance Robot Software
+Software for a balancing robot.
+
+This project in under development.
+
+## Build Instructions
+
+TODO
