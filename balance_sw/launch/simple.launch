@@ -5,5 +5,6 @@
   <node pkg="balance_sw" name="currents" type="currents"/>
   <node pkg="balance_sw" name="positions" type="positions"/>
   <node pkg="balance_sw" name="pwms" type="pwms"/>
+  <node pkg="balance_sw" name="controller" type="controller"/>
 
 </launch>
