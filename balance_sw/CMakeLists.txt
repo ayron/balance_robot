@@ -39,8 +39,11 @@ add_executable(pwms src/pwms.cpp)
 target_link_libraries(pwms ${catkin_LIBRARIES})
 add_dependencies(pwms ${catkin_EXPORTED_TARGETS})
 
+add_executable(controller src/controller.cpp)
+target_link_libraries(controller ${catkin_LIBRARIES})
+add_dependencies(controller ${catkin_EXPORTED_TARGETS})
 
-install(TARGETS lwaxi adxl345 positions currents pwms
+install(TARGETS lwaxi adxl345 positions currents pwms controller
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 install(FILES launch/simple.launch
