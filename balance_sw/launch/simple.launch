@@ -1,9 +1,9 @@
 <launch>
 
-  <node pkg="balance" name="lwaxi" type="lwaxi"/>
-  <node pkg="balance" name="adxl345" type="adxl345"/>
-  <node pkg="balance" name="currents" type="currents"/>
-  <node pkg="balance" name="positions" type="positions"/>
-  <node pkg="balance" name="pwms" type="pwms"/>
+  <node pkg="balance_sw" name="lwaxi" type="lwaxi"/>
+  <node pkg="balance_sw" name="adxl345" type="adxl345"/>
+  <node pkg="balance_sw" name="currents" type="currents"/>
+  <node pkg="balance_sw" name="positions" type="positions"/>
+  <node pkg="balance_sw" name="pwms" type="pwms"/>
 
 </launch>
