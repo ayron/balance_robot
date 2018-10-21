@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 {
   ros::init(argc, argv, "positions");
 
-  Node node();
+  Node node;
 
   ros::spin();
 

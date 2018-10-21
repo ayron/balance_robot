@@ -98,7 +98,7 @@ int main(int argc, char **argv)
 {
   ros::init(argc, argv, "lwaxi");
 
-  Node node();
+  Node node;
 
   ros::spin();
 
