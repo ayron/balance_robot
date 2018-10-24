@@ -96,7 +96,7 @@ void Node::publish_callback(const ros::TimerEvent& event)
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "lwaxi");
+  ros::init(argc, argv, "controller");
 
   Node node;
 
